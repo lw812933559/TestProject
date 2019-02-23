@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<suite name="test" parallel="test" thread-count="3">
-    <test name="suiteTest">
-        <classes>
-            <class name="com.xinghai.testngDemo.Suite.SuiteConfig"/>
-            <class name="com.xinghai.testngDemo.Suite.Login"/>
-        </classes>
-    </test>
-</suite>
