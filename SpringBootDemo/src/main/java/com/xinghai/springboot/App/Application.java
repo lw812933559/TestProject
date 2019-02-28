@@ -1,14 +1,16 @@
-package com.xinghai.springboot;
+package com.xinghai.springboot.App;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 
 import java.util.Arrays;
 
 @SpringBootApplication
+@ComponentScan("com.xinghai.springboot")
 public class Application {
     public static void main(String[] args){
         SpringApplication.run(Application.class,args);
