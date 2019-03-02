@@ -68,4 +68,9 @@ public class TestCase {
 
         Assert.assertEquals(s,"{\"sex\":\"man\",\"name\":\"zhangsan\",\"age\":\"20\"}");
     }
+    @Test
+    public void exceptionTest(){
+        Assert.assertEquals("123","abc");
+        throw new RuntimeException("测试失败，结果不同");
+    }
 }

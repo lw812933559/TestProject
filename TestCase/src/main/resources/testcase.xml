@@ -5,4 +5,7 @@
             <class name="com.xinghai.testcase.TestCase"/>
         </classes>
     </test>
+    <listeners>
+        <listener class-name="com.xinghai.testcase.ExtentTestNGIReporterListener"/>
+    </listeners>
 </suite>
